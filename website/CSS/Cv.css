@@ -1,0 +1,72 @@
+/*Header*/
+h1
+{
+  color: yellow;
+  margin-left: 450px;
+}
+/*Body color*/
+body
+{
+  padding: 5px;
+  background-color: lightgreen;
+  height: 100vh;
+}
+
+.column 
+{
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table 
+{
+  margin-left: 40px;
+}
+
+h3
+{
+  margin-left: 40px;
+  text-align: center;
+  color:bisque;
+  background-color:purple;
+  opacity: 0.9;
+  font-family: 'Yellowtail', cursive;
+  width: 300px;
+  border-style: double;
+  border-width: thick;
+  border-color:red;
+  border-radius: 10px;
+}
+
+ul
+{
+  display: block;
+  margin: 15px 40px;
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 5px; 
+  box-shadow: inset 5px 5px 5px lightsalmon;
+}
+
+li
+{
+  font-family: 'Arial', bold;
+}
+/*Footer*/
+footer
+{
+  padding: 5px;
+  margin-left: 430px;
+  margin-right: 400px;
+  width: 220px; 
+  background-color:chocolate;
+  color:darkblue;
+}
